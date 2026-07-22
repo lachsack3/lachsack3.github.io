@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Praxis Mustername</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Praxis Mustername</div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Zur Person</a></li>
+                <li><a href="psychotherapie.html">Psychotherapie</a></li>
+                <li><a href="kosten.html">Kosten</a></li>
+                <li><a href="terminbuchung.html">Terminbuchung</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="burger" id="burger">
+            <div></div><div></div><div></div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container grid-2">
+            <div class="text-box">
+                <h2>So erreichen Sie mich</h2>
+                <p><strong>Adresse:</strong><br>Musterstraße 123<br>12345 Musterstadt</p>
+                <p><strong>Telefon:</strong> 0123 / 456789</p>
+                <p><strong>E-Mail:</strong> kontakt@praxis-muster.de</p>
+                <p><strong>Telefonsprechzeiten:</strong><br>Mo & Mi: 12:00 – 13:00 Uhr</p>
+            </div>
+            
+            <div>
+                <h2>Nachricht senden</h2>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" placeholder="Ihr Name" required>
+                    <input type="email" placeholder="Ihre E-Mail-Adresse" required>
+                    <textarea rows="5" placeholder="Ihre Nachricht" required></textarea>
+                    <button type="submit" class="btn">Absenden</button>
+                </form>
+                <div id="formFeedback" class="feedback-msg"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Praxis Mustername | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
